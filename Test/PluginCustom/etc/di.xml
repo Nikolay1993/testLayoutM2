@@ -1,0 +1,5 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Test\PluginCustom\Controller\Test\Test">
+        <plugin name="Test_PluginCustom_Plugin" type="Test\PluginCustom\Plugin\CustomPlugin" sortOrder="101" disabled="false"  />
+    </type>
+</config>
